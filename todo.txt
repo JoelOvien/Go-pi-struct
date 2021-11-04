@@ -1,0 +1,11 @@
+------postapidb-------
+
+
+To set up our PostgreSQL db we use the command:
+docker run --name <Project_name> --env POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
+
+To stop it
+docker stop <Project_name> 
+
+To remove it
+docker rm <Project_name>
